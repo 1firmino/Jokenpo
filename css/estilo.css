@@ -1,0 +1,56 @@
+/* inicio do reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+    ul, ol, li {
+        list-style: none;
+    }
+
+/* fim do reset */
+/*
+#principal{
+    align-self: auto;
+    background-color: black;
+    height: 500px;
+}
+#maquina{
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    margin-right: auto;  
+    margin-left: auto;  
+    border-left: 0;     
+}
+
+#humano{
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+    display: inline-block;
+    /*display: inherit;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 0;
+    border: 0;
+
+}
+*/
+
+.jogadas{
+    opacity: 0.5;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.jogadas.humano:hover{
+    opacity: 1;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jogo.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>Jogando Pedra, Papel, Tesoura</title>
+</head>
+<body>
+    <div id="principal">
+        <div id="humano"></div>   
+        
+        <img src="imagens/pedra-maquina.png" class="jogadas maquina" id="pedra" >
+        <img src="imagens/papel-maquina.png" class="jogadas maquina" id="papel" >
+        <img src="imagens/tesoura-maquina.png" class="jogadas maquina" id="tesoura" >
+        <hr>
+        <img src="imagens/pedra.png" class="jogadas humano" id="pedra" onclick="jogadas('Pedra')">
+        <img src="imagens/papel.png" class="jogadas humano" id="papel" onclick="jogadas('Papel')">
+        <img src="imagens/tesoura.png" class="jogadas humano" id="tesoura" onclick="jogadas('Tesoura')">
+        
+
+        <br>
+
+        <div id="resultado"></div>
+        <div id="vitorias"></div>
+    </div>
+    
+    
+    
+</body>
+</html>
