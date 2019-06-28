@@ -20,24 +20,22 @@ function jogadas(jogada){
        jogadaHumano = 2
     } 
 
-    let vitorias = 0
-
+    
     //TESTE DOS VALORES DA JOGADA DA MÁQUINA E DO HUMANO PARA DECIDIR O RESULTADO
     if(jogadaHumano === jogadaMaquina){
         document.getElementById("resultado").innerHTML = "Empatou!"
+    
     }else if((jogadaHumano === 0 && jogadaMaquina === 1) || (jogadaHumano === 1 && jogadaMaquina === 2) || (jogadaHumano === 2 && jogadaMaquina === 0)){
-     document.getElementById("resultado").innerHTML = "Você perdeu!"
+        document.getElementById("resultado").innerHTML = "Você perdeu!"
      
     }else if((jogadaMaquina === 0 && jogadaHumano === 1) || (jogadaMaquina === 1 && jogadaHumano === 2) || (jogadaMaquina === 2 && jogadaHumano === 0)){
-     let resultadoVitoria = document.getElementById("resultado")
-     resultadoVitoria.innerHTML = "Você ganhou!"
-     document.getElementById("vitorias").innerHTML = for (vitorias = 0; resultadoVitoria === "Você ganhou!"; vitorias++){}
-    }
+        document.getElementById("resultado").innerHTML = "Você ganhou!"
+   
+}   
    
     console.log("jogada da maquina foi " + jogadaMaquina)
     console.log("jogada do Humano foi " + jogadaHumano)
-   
-    console.log(vitorias)
+
     realce()
     
 }
